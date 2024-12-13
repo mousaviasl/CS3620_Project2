@@ -1,0 +1,7 @@
+{% extends 'MadLibs/base.html' %}
+
+{% block content %}
+<h1>Welcome to Mad Libs!</h1>
+<p>Create fun and wacky stories by filling out forms!</p>
+<a href="{% url 'create_madlib' %}" class="btn btn-primary">Create a Mad Lib</a>
+{% endblock %}
